@@ -1,0 +1,306 @@
+# generic info
+lang: en
+language: English
+cdn: https://undp.github.io/design-system/
+logo: undp
+canonical: https://jobs.undp.org/
+# gtm: GTM-5ZQRJS9
+
+# page metadata
+meta:
+  title: UNDP Jobs
+  ogtitle: UNDP Jobs
+  undp: United Nations Development Programme
+  description: Jobs, careers, internships and volunteer opportunities at undp
+  image: meta-undp.jpg
+
+home:
+  hero:
+    title: UNDP  Jobs
+    cta: Read more
+  intro:
+    title: Is a career with UNDP right for you?
+    text: >
+      <p>Take this voluntary self-assessment to get valuable insight about your work expectations and whether it is a good match to some aspects of the work environment at UNDP! The input will be used for statistical purposes only; it will not be taken into consideration by UNDP in any job application process. This information is purely for your benefit.Access this brief video tutorial on how to use the self-assessment tool.</p>  
+  vacancyHeaders:
+    jobTite: Job title
+    category: Category
+    postLevel: Post level
+    applyBy: Apply by
+    agency: Agency
+    location: Location  
+  thematicAreas:
+    area1:
+      name: Democratic Governance and Peacebuilding
+      description: UNDP ensures inclusive and effective democratic governance by advocating, advising, fostering impartial spaces for dialogue, achieving consensus and building institutions.
+      vacancies:
+        vacancy1:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy2:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy3:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy4:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy5:
+          jobTite: 2596 International Project Evaluation Expert
+          category: External
+          postLevel: International Consultant
+          applyBy: May-2-23
+          agency: UNDP
+          location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTite: >
+            * Team Leader Governance Research and Innovation
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy7:
+          jobTite: >
+            * Governance Data Specialist
+          category: External
+          postLevel: P3
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy8:
+          jobTite: >
+            * Team Leader Strategic Communications and Knowledge Management
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Bogota, Colombia
+    area2:
+      name: Sustainable Development and Poverty Reduction
+      description: UNDP helps countries to simultaneously reduce poverty and achieve sustainable development that leads to transformational change, bringing about real improvements in people’s lives.
+      vacancies:
+        vacancy1:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy2:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy3:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy4:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy5:
+          jobTite: 2596 International Project Evaluation Expert
+          category: External
+          postLevel: International Consultant
+          applyBy: May-2-23
+          agency: UNDP
+          location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTite: >
+            * Team Leader Governance Research and Innovation
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy7:
+          jobTite: >
+            * Governance Data Specialist
+          category: External
+          postLevel: P3
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy8:
+          jobTite: >
+            * Team Leader Strategic Communications and Knowledge Management
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Bogota, Colombia
+    area3:
+      name: Climate & Disaster Resilience
+      description: UNDP works to integrate issues of climate, disaster risk and energy at the country level, and focuses on building resilience and ensuring that development remains risk-informed and sustainable.
+      vacancies:
+        vacancy1:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy2:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy3:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy4:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy5:
+          jobTite: 2596 International Project Evaluation Expert
+          category: External
+          postLevel: International Consultant
+          applyBy: May-2-23
+          agency: UNDP
+          location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTite: >
+            * Team Leader Governance Research and Innovation
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy7:
+          jobTite: >
+            * Governance Data Specialist
+          category: External
+          postLevel: P3
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy8:
+          jobTite: >
+            * Team Leader Strategic Communications and Knowledge Management
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Bogota, Colombia
+    area4:
+      name: Crisis Response
+      description: To help communities reduce and manage risks, humanitarian and development actors need to incorporate resilience-building and recovery into crisis response. UNDP makes a critical contribution to these efforts, by being present on the ground immediately after the onset of a crisis and linking humanitarian response to long term recovery.
+      vacancies:
+        vacancy1:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy2:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy3:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy4:
+          jobTite: Job Title
+          category: External
+          postLevel: NPSA-9
+          applyBy: Mar-15-23
+          agency: UNDP
+          location: New York, United States
+        vacancy5:
+          jobTite: 2596 International Project Evaluation Expert
+          category: External
+          postLevel: International Consultant
+          applyBy: May-2-23
+          agency: UNDP
+          location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTite: >
+            * Team Leader Governance Research and Innovation
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy7:
+          jobTite: >
+            * Governance Data Specialist
+          category: External
+          postLevel: P3
+          applyBy: May-1-23
+          agency: UNDP
+          location: Oslo, Norway
+        vacancy8:
+          jobTite: >
+            * Team Leader Strategic Communications and Knowledge Management
+          category: External
+          postLevel: P5
+          applyBy: May-1-23
+          agency: UNDP
+          location: Bogota, Colombia
+  
+footer:
+  undp: United Nations <br />Development Programme
+  sm:
+    - class: twitter
+      label: Twitter
+      url: https://twitter.com/undp
+    - class: facebook
+      label: Facebook
+      url: https://www.facebook.com/UNDP/
+    - class: youtube
+      label: Youtube
+      url: https://www.youtube.com/UNDP/
+    - class: instagram
+      label: Instagram
+      url: https://www.instagram.com/UNDP/
+    - class: linkedin
+      label: LinkedIn
+      url: https://www.linkedin.com/company/undp/
+  staticlinks:
+    - title: Terms of Use
+      url: https://www.undp.org/copyright-terms-use

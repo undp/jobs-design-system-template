@@ -1,0 +1,17 @@
+# generic info
+lang: es
+language: Español
+cdn: https://undp.github.io/design-system/
+logo: pnud
+canonical: https://jobs.undp.org/
+# gtm: GTM-5ZQRJS9
+
+# page metadata
+meta:
+  title: PNUD Jobs
+  ogtitle: PNUD Jobs
+  undp: Programa de las Naciones Unidas para el Desarrollo
+  description: Jobs, careers, internships and volunteer opportunities at undp
+  image: meta-pnud.jpg
+
+# content:

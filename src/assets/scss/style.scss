@@ -1,0 +1,54 @@
+@use 'assets/scss/breakpoints';
+@use 'assets/scss/variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.search-filter {
+  position: sticky;
+  top: variables.$spacing-13;
+}
+
+.thematicDescription {
+  color: variables.$color-gray-600;
+}
+
+.vacanciesTable {
+  display: table;
+  margin: variables.$spacing-08 0 $spacing-10;
+  border-collapse: collapse; 
+}
+
+.vacanciesTable__header {
+  display: table-header-group;
+  font-weight: 700;
+}
+
+.vacanciesTable__cell {
+  display: table-cell;
+  padding: variables.$spacing-03;
+}
+
+.vacanciesTable__row {
+  display: table-row;
+}
+
+.vacanciesTable__header,
+.vacanciesTable__row {
+  border-bottom: 1px solid black;
+}
+
+.vacanciesTableLink {
+  background: transparent;
+  transition: .1s all ease;
+  &:hover {
+    background: variables.$color-gray-100;
+  }
+}

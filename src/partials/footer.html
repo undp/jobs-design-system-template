@@ -1,0 +1,49 @@
+<footer class="footer">
+    <div class="grid-x">
+      <div class="cell medium-10 medium-offset-1">
+        <div class="grid-x footer-top">
+          <div class="cell medium-5">
+            <div class="footer-logo">
+              <a href="https://www.undp.org{{#ifequal lang "en"}}{{else}}/{{lang}}{{/ifequal}}">
+                <img
+                  src="{{cdn}}images/{{ logo }}-logo-white.svg"
+                  alt="UNDP Logo"
+                />
+              </a>
+              <h5 tabindex="0">
+                {{{footer.undp}}}
+              </h5>
+            </div>
+          </div>
+          <div class="cell medium-5 show-large">
+            <ul class="footer-icons">
+              {{#each footer.sm}}
+              <li><a href="{{url}}" class="{{class}}">{{label}}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+        <div class="grid-x footer-bottom">
+          <div class="cell medium-5">
+            <p tabindex="0">&copy; 2023 {{meta.undp}}</p>
+          </div>
+          <div class="cell medium-6">
+            <ul class="footer-lists">
+              {{#each footer.staticlinks}}
+              <li><a href="{{url}}" target="_blank">{{title}}</a></li>
+              {{/each}}
+          </ul>
+            <div class="show-small">
+              <ul class="footer-icons">
+                {{#each footer.sm}}
+                <li><a href="{{url}}" class="{{class}}" target="_blank">{{label}}</a></li>
+                {{/each}}
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<script src="{{@root.root}}assets/js/app.js"></script>

@@ -1,0 +1,42 @@
+{{#if this.gtm}}<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{this.gtm}}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->{{/if}}
+<header class="country-header">
+  <div class="header">
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">
+        <div class="small-6 cell top-left">
+          <a href="https://www.undp.org" class="logo">
+            <img src="{{cdn}}images/{{logo}}-logo-blue.svg" alt="UNDP Logo" />
+          </a>
+          <div class="site-title">
+            <span>GLOBAL</span>
+            <span>UNDP Jobs</span>
+          </div>
+        </div>
+        <div class="small-6 cell top-right language-switcher">
+          <div class="dropdown-language">
+            <button aria-expanded="false"><span>{{language}}</span></button>
+            <ul role="menu">
+              {{#ifequal lang "en"}}{{else}}
+                <li role="menuitem">
+                  <a href="{{@root.root}}" lang="en" hreflang="en" tabindex="-1">English</a>
+                </li>
+              {{/ifequal}}
+              {{#ifequal lang "es"}}{{else}}
+                <li role="menuitem">
+                  <a href="{{@root.root}}es/" lang="es" hreflang="es" tabindex="-1">Español</a>
+                </li>
+              {{/ifequal}}
+              {{#ifequal lang "fr"}}{{else}}
+                <li role="menuitem">
+                  <a href="{{@root.root}}fr/" lang="fr" hreflang="fr" tabindex="-1">Français</a>
+                </li>
+              {{/ifequal}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
