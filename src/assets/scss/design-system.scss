@@ -39,7 +39,7 @@
 // @import 'Components/Forms/TextPanel/text-panel';
 
 // Navigation components
-// @import 'Components/Navigationcomponents/Breadcrumbs/breadcrumbs';
+@import 'Components/Navigationcomponents/Breadcrumbs/breadcrumbs';
 // @import 'Components/Navigationcomponents/Pagination/pagination';
 // @import 'Components/Navigationcomponents/Sidebar/sidebar';
 // @import 'Molecules/SidebarData/sidebar-data';
@@ -115,5 +115,5 @@
 // @import 'Utilities/ProgressBar/progress-bar';
 // @import 'Atom/Navigation/ProgressBar/Navigation/progress-bar-navigation';
 
-// Patterns
-@import 'Patterns/FilterAndSearchBar/filter-and-search-bar' // Filter and search sidebar
+@import 'Patterns/FilterAndSearchBar/filter-and-search-bar'; // Filter and search sidebar
+@import 'Organism/Text/PostHeader/post-header';

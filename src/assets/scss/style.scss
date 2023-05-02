@@ -52,3 +52,53 @@ img {
     background: variables.$color-gray-100;
   }
 }
+
+// copied from stories/Templates/ArticlePage/article-page.scss
+.mt-h {
+  margin-top: 5.25rem;
+
+  @include devicebreak(medium) {
+    margin-top: 8.75rem;
+  }
+
+  @include devicebreak(xlarge) {
+    margin-top: 11.875rem;
+  }
+}
+
+.postMetadata {
+  margin-top: variables.$spacing-07;
+  border-bottom: 1px solid variables.$color-gray-400;
+  @include devicebreak(medium) {
+    margin-top: variables.$spacing-10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  h6 {
+    margin-bottom: variables.$spacing-02;
+  }
+  p {
+    color: variables.$color-gray-700;
+  }
+}
+
+.postMetadata__category {
+  margin-bottom: variables.$spacing-06;
+}
+
+.postContent {
+  margin-bottom: variables.$spacing-09;
+  @include devicebreak(medium) {
+    margin-bottom: variables.$spacing-13;
+  }
+}
+
+.buttonsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: variables.$spacing-05;
+  margin: variables.$spacing-07 0;
+  @include devicebreak(medium) {
+    flex-direction: row;
+  }
+}

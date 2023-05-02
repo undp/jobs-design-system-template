@@ -1,5 +1,49 @@
 <main>
-  
-  <h1><br>this is a job post</h1>
-  
+  <div class="grid-container fluid mt-h">
+    <div class="grid-x">
+      <div class="cell large-9 medium-offset-1 medium-10">
+        <nav aria-label="breadcrumbs" data-viewport="true"
+          class="breadcrumb inviewport">
+          <ul>
+            <li><a href="../" aria-label="Home">Home</a></li>
+            <li aria-current="Page title">{{post.title}}</li>
+          </ul>
+        </nav>
+        <div class="post-wrapper" data-viewport="true">
+          <h2>{{post.title}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="cell large-9 medium-offset-1 medium-10">
+        <div class="postMetadata">
+          {{#each post.metadata}}
+            <div class="postMetadata__category">
+              <h6>{{this.label}}</h6>
+              <p>{{this.value}}</p>
+            </div>
+          {{/each}}
+        </div>
+        <div class="buttonsWrap">
+          <a class="button button-primary button-arrow" role="button" href="apply.html">
+            Apply now
+          </a>
+          <a class="button button-secondary" role="button" href="#">Refer a friend</a>
+        </div>
+        <div>
+          <p><small>{{{post.disclaimer}}}</small></p>
+        </div>
+      </div>
+      <div class="cell large-8 medium-offset-1 medium-10 postContent">
+        {{{post.content}}}
+        <div class="buttonsWrap">
+          <a class="button button-primary button-arrow" role="button" href="apply.html">
+            Apply now
+          </a>
+          <a class="button button-secondary" role="button" href="#">Refer a friend</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
+
