@@ -1,6 +1,31 @@
 @use 'assets/scss/breakpoints';
 @use 'assets/scss/variables';
 
+%animate-link {
+  background-image:
+    linear-gradient(variables.$color-dark-red, variables.$color-dark-red),
+    linear-gradient(variables.$color-dark-red, variables.$color-dark-red);
+  background-position: 100% 100%, -30px 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px, 0 1px;
+
+  &:hover {
+    @include animation(lineLoop-animation 2s linear infinite);
+  }
+}
+
+// link animation
+@keyframes lineLoop-animation {
+  0% {
+    background-position: 100% 100%, -30px 100%;
+    background-size: 100% 2px, 0 2px;
+  }
+  to {
+    background-position: calc(100% + 30px) 100%, 0 100%;
+    background-size: 0 2px, 100% 2px;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -11,6 +36,14 @@ img {
   max-width: 100%;
 }
 
+.homepage-hero-full {
+  margin-bottom: variables.$spacing-07;
+  padding-bottom: variables.$spacing-12;
+  @include devicebreak(medium) {
+    margin-bottom: variables.$spacing-10;
+  }
+}
+
 .search-filter {
   position: sticky;
   top: variables.$spacing-13;
@@ -18,6 +51,7 @@ img {
 
 .thematicDescription {
   color: variables.$color-gray-600;
+  max-width: 46rem;
 }
 
 .vacanciesTable {
@@ -34,6 +68,12 @@ img {
 .vacanciesTable__cell {
   display: table-cell;
   padding: variables.$spacing-03;
+  &:first-child {
+    > span {
+      text-decoration: none;
+      @extend %animate-link !optional;
+    }
+  }
 }
 
 .vacanciesTable__row {
@@ -50,6 +90,9 @@ img {
   transition: .1s all ease;
   &:hover {
     background: variables.$color-gray-100;
+    span {
+      @include animation(lineLoop-animation 2s linear infinite);
+    }
   }
 }
 
@@ -67,7 +110,6 @@ img {
 }
 
 .postMetadata {
-  margin-top: variables.$spacing-07;
   border-bottom: 1px solid variables.$color-gray-400;
   @include devicebreak(medium) {
     margin-top: variables.$spacing-10;
@@ -100,5 +142,57 @@ img {
   margin: variables.$spacing-07 0;
   @include devicebreak(medium) {
     flex-direction: row;
+  }
+}
+
+.application {
+  
+}
+
+.application__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: variables.$spacing-06;
+  > div {
+    margin-bottom: variables.$spacing-05;
+    grid-column: span 2;
+  }
+}
+
+span[aria-label="required"] {
+  color: variables.$color-red;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+// spacing utilities
+
+.margin-bottom {
+  &-03 {
+    margin-bottom: variables.$spacing-03;
+  }
+  &-04 {
+    margin-bottom: variables.$spacing-04;
+  }
+  &-05 {
+    margin-bottom: variables.$spacing-05;
+  }
+  &-06 {
+    margin-bottom: variables.$spacing-06;
+  }
+  &-07 {
+    margin-bottom: variables.$spacing-07;
+  }
+  &-08 {
+    margin-bottom: variables.$spacing-08;
+  }
+  &-08 {
+    margin-bottom: variables.$spacing-09;
+  }
+  &-10 {
+    margin-bottom: variables.$spacing-10;
   }
 }

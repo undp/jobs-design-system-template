@@ -1,456 +1,64 @@
 <main>
   <div class="homepage-hero-full">
     <div class="overlay-grey">
-      <img
-        src="{{@root.root}}assets/img/home-hero.jpg"
-        alt=""
-      />
+      <img src="{{@root.root}}assets/img/home-hero.jpg" alt="" />
     </div>
     <div class="grid-x homepage-hero-content">
       <div class="cell large-7 medium-9 medium-offset-1">
-        <h1 class="color-white" data-viewport="true">{{home.hero.title}}</h1>
+        <h1 class="color-white" data-viewport="true">{{{home.hero.title}}}</h1>
         <h4 class="color-white" data-viewport="true">
-          Subtitle or excerpt of the story goes below and it is two lines
+          {{{home.hero.subtitle}}}
         </h4>
-        <a class="button button-primary button-arrow" role="button" href="#">
+        <!-- <a class="button button-primary button-arrow" role="button" href="#">
           {{home.hero.cta}}
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="medium-10 medium-offset-1">
-      <h2>{{home.intro.title}}</h2>
-      {{{home.intro.text}}}
-    </div>
-  </div>
-  <div class="grid-x">
-    <div class="small-12 medium-3">
-      <button class="button button-secondary sort-filter-search">
-        Search and filter
-        <span>Close</span>
-      </button>
-      <div class="search-filter">
-        <div class="expand-search">
-          <button class="expand-button">
-            <img src="{{cdn}}images/search-black.svg" alt="search expand" />
-          </button>
-          <input type="text" aria-label="expand-search" />
-          <button class="close-button">
-            <img src="{{cdn}}images/times.svg" alt="search close" />
-          </button>
-        </div>
-        <div class="select-wrapper">
-          <div class="multi-select" data-multi-select="">
-            <button aria-label="Region" aria-expanded="false" data-id="filter1">
-              Category
-            </button>
-            <ul
-              data-type="region"
-              role="listbox"
-              aria-multiselectable="true"
-              aria-hidden="true"
-              aria-modal="true"
-            >
-              <li role="option">
-                <div class="form-check">
-                  <label for="category11">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category11"
-                    name="category11"
-                    value="category1"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category21">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category21"
-                    name="category21"
-                    value="category2"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category31">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category31"
-                    name="category31"
-                    value="category3"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category41">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category41"
-                    name="category41"
-                    value="category4"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category51">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category51"
-                    name="category51"
-                    value="category5"
-                  />
-                </div>
-              </li>
-              <li role="option" class="has-submenu">
-                <button class="checkbox-item">Category</button>
-                <ul role="listbox" class="sub-menu">
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory11">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory11"
-                        name="subcategory11"
-                        value="subcategory1"
-                      />
-                    </div>
-                  </li>
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory21">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory21"
-                        name="subcategory21"
-                        value="subcategory2"
-                      />
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="multi-select" data-multi-select="">
-            <button aria-label="Region" aria-expanded="false" data-id="filter2">
-              Category
-            </button>
-            <ul
-              data-type="region"
-              role="listbox"
-              aria-multiselectable="true"
-              aria-hidden="true"
-              aria-modal="true"
-            >
-              <li role="option">
-                <div class="form-check">
-                  <label for="category12">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category12"
-                    name="category12"
-                    value="category1"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category22">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category22"
-                    name="category22"
-                    value="category2"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category32">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category32"
-                    name="category32"
-                    value="category3"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category42">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category42"
-                    name="category42"
-                    value="category4"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category52">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category52"
-                    name="category52"
-                    value="category5"
-                  />
-                </div>
-              </li>
-              <li role="option" class="has-submenu">
-                <button class="checkbox-item">Category</button>
-                <ul role="listbox" class="sub-menu">
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory12">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory12"
-                        name="subcategory12"
-                        value="subcategory1"
-                      />
-                    </div>
-                  </li>
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory22">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory22"
-                        name="subcategory22"
-                        value="subcategory2"
-                      />
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="multi-select" data-multi-select="">
-            <button aria-label="Region" aria-expanded="false" data-id="filter3">
-              Category
-            </button>
-            <ul
-              data-type="region"
-              role="listbox"
-              aria-multiselectable="true"
-              aria-hidden="true"
-              aria-modal="true"
-            >
-              <li role="option">
-                <div class="form-check">
-                  <label for="category13">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category13"
-                    name="category13"
-                    value="category1"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category23">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category23"
-                    name="category23"
-                    value="category2"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category33">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category33"
-                    name="category33"
-                    value="category3"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category43">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category43"
-                    name="category43"
-                    value="category4"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category53">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category53"
-                    name="category53"
-                    value="category5"
-                  />
-                </div>
-              </li>
-              <li role="option" class="has-submenu">
-                <button class="checkbox-item">Category</button>
-                <ul role="listbox" class="sub-menu">
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory13">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory13"
-                        name="subcategory13"
-                        value="subcategory1"
-                      />
-                    </div>
-                  </li>
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory23">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory23"
-                        name="subcategory23"
-                        value="subcategory2"
-                      />
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="multi-select" data-multi-select="">
-            <button aria-label="Region" aria-expanded="false" data-id="filter4">
-              Category
-            </button>
-            <ul
-              data-type="region"
-              role="listbox"
-              aria-multiselectable="true"
-              aria-hidden="true"
-              aria-modal="true"
-            >
-              <li role="option">
-                <div class="form-check">
-                  <label for="category14">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category14"
-                    name="category14"
-                    value="category1"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category24">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category24"
-                    name="category24"
-                    value="category2"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category34">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category34"
-                    name="category34"
-                    value="category3"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category44">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category44"
-                    name="category44"
-                    value="category4"
-                  />
-                </div>
-              </li>
-              <li role="option">
-                <div class="form-check">
-                  <label for="category54">Category</label>
-                  <input
-                    type="checkbox"
-                    id="category54"
-                    name="category54"
-                    value="category5"
-                  />
-                </div>
-              </li>
-              <li role="option" class="has-submenu">
-                <button class="checkbox-item">Category</button>
-                <ul role="listbox" class="sub-menu">
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory14">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory14"
-                        name="subcategory14"
-                        value="subcategory1"
-                      />
-                    </div>
-                  </li>
-                  <li role="option">
-                    <div class="form-check">
-                      <label for="subcategory24">Category</label>
-                      <input
-                        type="checkbox"
-                        id="subcategory24"
-                        name="subcategory24"
-                        value="subcategory2"
-                      />
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <span class="active-filter">Active Filters:</span>
-          <div class="selected-chips"></div>
-          <button class="clear-search-filter">Clear All</button>
-        </div>
+  <div class="grid-container fluid">
+    <div class="grid-x grid-margin-x">
+      <div class="cell medium-10 medium-offset-1 margin-bottom-10">
+        <h2>{{home.intro.title}}</h2>
+        {{{home.intro.text}}}
       </div>
     </div>
-    <div class="medium-9">
-      <h4>All vacancies</h4>
-      {{#each home.thematicAreas}}
+    <div class="grid-x grid-margin-x">
+      <div class="cell medium-3">
+        {{> searchFilter}}
+      </div>
+      <div class="cell medium-auto">
+        <h4>All vacancies</h4>
+        {{#each home.thematicAreas}}
         <h3>{{this.name}}</h3>
         <h5 class="thematicDescription">{{this.description}}</h5>
         <div class="vacanciesTable">
           <div class="vacanciesTable__header">
-            <div class="vacanciesTable__cell">Job title{{home.vacancyHeaders.jobTitle}}</div>
-            <div class="vacanciesTable__cell">Category{{home.vacancyHeaders.category}}</div>
-            <div class="vacanciesTable__cell">Post level{{home.vacancyHeaders.postLevel}}</div>
-            <div class="vacanciesTable__cell">Apply by{{home.vacancyHeaders.applyBy}}</div>
-            <div class="vacanciesTable__cell">Agency{{home.vacancyHeaders.agency}}</div>
-            <div class="vacanciesTable__cell">Location{{home.vacancyHeaders.location}}</div>
+            <div class="vacanciesTable__cell">Job
+              title{{home.vacancyHeaders.jobTitle}}</div>
+            <div class="vacanciesTable__cell">
+              Category{{home.vacancyHeaders.category}}</div>
+            <div class="vacanciesTable__cell">Post
+              level{{home.vacancyHeaders.postLevel}}</div>
+            <div class="vacanciesTable__cell">Apply
+              by{{home.vacancyHeaders.applyBy}}</div>
+            <div class="vacanciesTable__cell">
+              Agency{{home.vacancyHeaders.agency}}</div>
+            <div class="vacanciesTable__cell">
+              Location{{home.vacancyHeaders.location}}</div>
           </div>
-        {{#each this.vacancies}}
+          {{#each this.vacancies}}
           <a href="post.html" class="vacanciesTableLink vacanciesTable__row">
-          {{#each this}}
-            <div class="vacanciesTable__cell">{{this}}</div>
-          {{/each}}
+            {{#each this}}
+              <div class="vacanciesTable__cell">
+                <span>{{{this}}}</span>
+              </div>
+            {{/each}}
           </a>
-        {{/each}}
+          {{/each}}
         </div> <!-- .vacanciesTable -->
-      {{/each}}
+        {{/each}}
+      </div>
     </div>
   </div>
-  
+
 </main>

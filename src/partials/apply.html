@@ -1,11 +1,11 @@
 <main>
   <div class="grid-container fluid mt-h">
     <div class="grid-x">
-      <div class="cell large-9 medium-offset-1 medium-10">
+      <div class="cell large-9 medium-offset-1 medium-10 margin-bottom-07">
         <nav aria-label="breadcrumbs" data-viewport="true"
           class="breadcrumb inviewport">
           <ul>
-            <li><a href="/" aria-label="Home">Home</a></li>
+            <li><a href="{{root}}/index.html" aria-label="Home">Home</a></li>
             <li><a href="post.html">{{post.title}}</a></li>
             <li aria-current="Page title">{{apply.title}}</li>
           </ul>
@@ -19,10 +19,154 @@
       <div class="cell large-9 medium-offset-1 medium-10">
         {{{apply.introduction}}}
       </div>
-      <div class="cell large-8 medium-offset-1 medium-10">
-        
+    </div>
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-9 medium-offset-1 medium-10">
+        <h2>Personal information</h2>
+        <div class="application">
+          <div class="application__grid">
+            <div>
+              <label for="">Prefix: <span aria-label="required">*</span></label>
+              <div class="select-box" data-select="">
+                <button type="button" aria-haspopup="listbox"
+                  aria-label="Select" data-select-open="">
+                  --
+                </button>
+                <ul role="listbox" data-select-options="">
+                  <li role="option" tabindex="0" data-value="mr">
+                    <span>Mr.</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="mrs">
+                    <span>Mrs.</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="ms">
+                    <span>Ms.</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="mx">
+                    <span>Mx.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <label for="firstName">First name: <span
+                  aria-label="required">*</span></label>
+              <input type="text" placeholder="" name="firstName" id="firstName"
+                required />
+            </div>
+            <div>
+              <label for="lastName">Last name: <span
+                  aria-label="required">*</span></label>
+              <input type="text" placeholder="" name="lastName" id="lastName"
+                required />
+            </div>
+            <div>
+              <label for="email">Email: <span
+                  aria-label="required">*</span></label>
+              <input type="email" placeholder="" name="email" id="email"
+                required />
+            </div>
+            <div>
+              <label for="phone">Phone: <span
+                  aria-label="required">*</span></label>
+              <input type="tel" placeholder="" name="phone" id="phone"
+                required />
+            </div>
+            <div>
+              <label for="">Gender:</label>
+              <div class="select-box" data-select="">
+                <button type="button" aria-haspopup="listbox"
+                  aria-label="Select" data-select-open="">
+                  --
+                </button>
+                <ul role="listbox" data-select-options="">
+                  <li role="option" tabindex="0" data-value="female">
+                    <span>Female</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="male">
+                    <span>Male</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="other">
+                    <span>Other</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <label for="dob">Date of birth: <span
+                  aria-label="required">*</span></label>
+              <input type="date" placeholder="dd/mm/yyyy" name="dob" id="dob"
+                required />
+            </div>
+            <div>
+              <label for="">Nationality at birth: <span
+                  aria-label="required">*</span></label>
+              <div class="select-box" data-select="">
+                <button type="button" aria-haspopup="listbox"
+                  aria-label="Select" data-select-open="">
+                  --
+                </button>
+                <ul role="listbox" data-select-options="">
+                  <li role="option" tabindex="0" data-value="nat1">
+                    <span>Nationality 1</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="nat2">
+                    <span>Nationality 2</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <label for="">Current nationality: <span
+                  aria-label="required">*</span></label>
+              <div class="select-box" data-select="">
+                <button type="button" aria-haspopup="listbox"
+                  aria-label="Select" data-select-open="">
+                  --
+                </button>
+                <ul role="listbox" data-select-options="">
+                  <li role="option" tabindex="0" data-value="nat1">
+                    <span>Nationality 1</span>
+                  </li>
+                  <li role="option" tabindex="0" data-value="nat2">
+                    <span>Nationality 2</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <fieldset>
+              <label for="unMember">Are you current or former UN Staff Member?<span aria-label="required">*</span> <small> (NB: SSA contract holders are considered Vendors not Staff)</small></label>
+              <div class="form-check">
+                <input type="radio" name="unStaff" value="yes" />
+                <label for="yes">Yes</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="unStaff" value="no" />
+                <label for="no">No</label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <fieldset>
+              <label for="undpStaff">*Are you current or former UNDP Staff Member?<span
+                  aria-label="required">*</span> <small>(UNDP staff, please
+                  select "yes" as UN Staff above)</small></label>
+              <div class="form-check">
+                <input type="radio" name="undpStaff" value="yes" />
+                <label for="yes">Yes</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="undpStaff" value="no" />
+                <label for="no">No</label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
         <div class="buttonsWrap">
-          <a class="button button-primary button-arrow" role="button" href="apply.html">
+          <a class="button button-primary button-arrow" role="button"
+            href="apply.html">
             Apply now
           </a>
         </div>
@@ -30,4 +174,3 @@
     </div>
   </div>
 </main>
-

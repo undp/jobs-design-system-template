@@ -3,7 +3,7 @@ import $ from 'jquery';
 // Load individual modules
 import { expandSearch } from '@undp/design-system/stories/assets/js/expand-search';
 import { multiSelect } from '@undp/design-system/stories/assets/js/multi-select';
-// import { select } from '@undp/design-system/stories/assets/js/select';
+import { select } from '@undp/design-system/stories/assets/js/select';
 // import { sidebarNav, sidebarMenu } from '@undp/design-system/stories/assets/js/sidebar';
 import { navigationInitialize } from '@undp/design-system/stories/assets/js/navigation';
 // import { accordion } from '@undp/design-system/stories/assets/js/accordion';
@@ -33,7 +33,7 @@ require('@undp/design-system/stories/assets/js/undp');
 expandSearch();
 multiSelect();
 toggleFilter();
-// select();
+select();
 
 // Side bar navigation
 // sidebarNav();

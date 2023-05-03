@@ -16,12 +16,13 @@ meta:
 
 home:
   hero:
-    title: UNDP  Jobs
+    title: UNDP <br>Careers
+    subtitle: Current vacancies
     cta: Read more
   intro:
     title: Is a career with UNDP right for you?
     text: >
-      <p>Take this voluntary self-assessment to get valuable insight about your work expectations and whether it is a good match to some aspects of the work environment at UNDP! The input will be used for statistical purposes only; it will not be taken into consideration by UNDP in any job application process. This information is purely for your benefit.Access this brief video tutorial on how to use the self-assessment tool.</p>  
+      <p>Take this <a href="https://www.cubiksonline.com/CubiksOnline/Standalone/PLanding.aspx?key=8e331395-680d-4642-b5e0-f630af7afb2b&hash=E7101B1C96E19267A7AC86AB6AAC3B38A37F14DA&skin=21746+148">voluntary self-assessment</a> to get valuable insight about your work expectations and whether it is a good match to some aspects of the work environment at UNDP! The input will be used for statistical purposes only; it will not be taken into consideration by UNDP in any job application process. This information is purely for your benefit. Access this brief <a href="https://www.undp.org/sites/g/files/zskgke326/files/2023-02/How_to_use_the_self_assessment_tool.mp4">video tutorial on how to use the self-assessment tool</a>.</p>  
   vacancyHeaders:
     jobTite: Job title
     category: Category
@@ -38,7 +39,8 @@ home:
           jobTite: Job Title
           category: External
           postLevel: NPSA-9
-          applyBy: Mar-15-23
+          applyBy: >
+            <span style="white-space:nowrap">Mar-15-23</span>
           agency: UNDP
           location: New York, United States
         vacancy2:
