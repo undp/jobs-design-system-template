@@ -1,6 +1,31 @@
 @use 'assets/scss/breakpoints';
 @use 'assets/scss/variables';
 
+%animate-link {
+  background-image:
+    linear-gradient($color-dark-red, $color-dark-red),
+    linear-gradient($color-dark-red, $color-dark-red);
+  background-position: 100% 100%, -30px 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px, 0 1px;
+
+  &:hover {
+    @include animation(lineLoop-animation 2s linear infinite);
+  }
+}
+
+// link animation
+@keyframes lineLoop-animation {
+  0% {
+    background-position: 100% 100%, -30px 100%;
+    background-size: 100% 2px, 0 2px;
+  }
+  to {
+    background-position: calc(100% + 30px) 100%, 0 100%;
+    background-size: 0 2px, 100% 2px;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -42,12 +67,16 @@ img {
   @include devicebreak(medium) {
     display: table-header-group;
     font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: .03em;
   }
 }
 
 .vacanciesTable__cell {
   padding: variables.$spacing-03;
   @include devicebreak(medium) {
+    padding: variables.$spacing-05 variables.$spacing-03;
     display: table-cell;
   }
   &:first-child {
@@ -71,7 +100,7 @@ img {
 
 .vacanciesTable__header,
 .vacanciesTable__row {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid variables.$color-gray-500;
 }
 
 .vacanciesTableLink {
@@ -80,6 +109,10 @@ img {
   &:hover,
   &:focus {
     background: variables.$color-gray-200;
+    &>.vacanciesTable__cell:first-child span {
+      @extend %animate-link !optional;
+      @include animation(lineLoop-animation 2s linear infinite);
+    }
   }
 }
 
@@ -188,10 +221,18 @@ fieldset {
   &-08 {
     margin-bottom: variables.$spacing-08;
   }
-  &-08 {
+  &-09 {
     margin-bottom: variables.$spacing-09;
   }
   &-10 {
     margin-bottom: variables.$spacing-10;
   }
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+// .multi-select {
+//   max-width: none;
+// }

@@ -383,7 +383,659 @@ home:
           applyBy: May-1-23
           agency: UNDP
           location: Bogota, Colombia
-  
+    area5:
+      name: HIV, Health and Development
+      description: UNDP’s HIV and health work leverages the organization’s core strengths and mandates in human development, governance, gender equality and capacity development to complement the efforts of specialist health-focused UN agencies and other partners.
+      vacancies:
+        vacancy1:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy2:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy3:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy4:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy5:
+          jobTitle: 
+            label: Job title
+            value: 2596 International Project Evaluation Expert
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: International Consultant
+          applyBy: 
+            label: Apply by
+            value: May-2-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Governance Research and Innovation
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency:
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy7:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Governance Data Specialist
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P3
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy8:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Strategic Communications and Knowledge Management
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Bogota, Colombia
+    area6:
+      name: Gender Equality
+      description: The promotion of gender equality and the empowerment of women is central to the mandate of UNDP and intrinsic to its development approach. This effort includes advocating for women’s and girls’ equal rights, combating discriminatory practices and challenging the roles and stereotypes that affect inequalities and exclusion.
+      vacancies:
+        vacancy1:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy2:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy3:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy4:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy5:
+          jobTitle: 
+            label: Job title
+            value: 2596 International Project Evaluation Expert
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: International Consultant
+          applyBy: 
+            label: Apply by
+            value: May-2-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Governance Research and Innovation
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency:
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy7:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Governance Data Specialist
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P3
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy8:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Strategic Communications and Knowledge Management
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Bogota, Colombia
+    area7:
+      name: Management
+      description: UNDP's managers, on the ground in some 170 countries and territories, share and learn from each other, and draw on best practices from both the public and private sectors, so that we can provide effective management and operational support to achieve development results.
+      vacancies:
+        vacancy1:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy2:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy3:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy4:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy5:
+          jobTitle: 
+            label: Job title
+            value: 2596 International Project Evaluation Expert
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: International Consultant
+          applyBy: 
+            label: Apply by
+            value: May-2-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Governance Research and Innovation
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency:
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy7:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Governance Data Specialist
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P3
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy8:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Strategic Communications and Knowledge Management
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Bogota, Colombia
+    area8:
+      name: Other Opportunities
+      description: Not all jobs fit into a category; here are additional opportunities to join UNDP and be the talent that makes a difference for people and planet
+      vacancies:
+        vacancy1:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy2:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy3:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy4:
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
+        vacancy5:
+          jobTitle: 
+            label: Job title
+            value: 2596 International Project Evaluation Expert
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: International Consultant
+          applyBy: 
+            label: Apply by
+            value: May-2-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+        vacancy6:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Governance Research and Innovation
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency:
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy7:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Governance Data Specialist
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P3
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
+        vacancy8:
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Strategic Communications and Knowledge Management
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Bogota, Colombia
+
 post:
   title: Intern - Conflict Prevention and Peacebuilding Knowledge management
   metadata:

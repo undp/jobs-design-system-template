@@ -9,9 +9,6 @@
         <h4 class="color-white" data-viewport="true">
           {{{home.hero.subtitle}}}
         </h4>
-        <!-- <a class="button button-primary button-arrow" role="button" href="#">
-          {{home.hero.cta}}
-        </a> -->
       </div>
     </div>
   </div>
@@ -23,28 +20,22 @@
       </div>
     </div>
     <div class="grid-x grid-margin-x">
-      <div class="cell medium-3">
+      <div class="cell medium-3 margin-bottom-06">
         {{> searchFilter}}
       </div>
       <div class="cell medium-auto">
-        <h4>All vacancies</h4>
+        <h4 class="margin-bottom-09">All vacancies</h4>
         {{#each home.thematicAreas}}
         <h3>{{this.name}}</h3>
         <h5 class="thematicDescription">{{this.description}}</h5>
         <div class="vacanciesTable">
           <div class="vacanciesTable__header">
-            <div class="vacanciesTable__cell">Job
-              title{{home.vacancyHeaders.jobTitle}}</div>
-            <div class="vacanciesTable__cell">
-              Category{{home.vacancyHeaders.category}}</div>
-            <div class="vacanciesTable__cell">Post
-              level{{home.vacancyHeaders.postLevel}}</div>
-            <div class="vacanciesTable__cell">Apply
-              by{{home.vacancyHeaders.applyBy}}</div>
-            <div class="vacanciesTable__cell">
-              Agency{{home.vacancyHeaders.agency}}</div>
-            <div class="vacanciesTable__cell">
-              Location{{home.vacancyHeaders.location}}</div>
+            <div class="vacanciesTable__cell nowrap">Job title</div>
+            <div class="vacanciesTable__cell nowrap">Category</div>
+            <div class="vacanciesTable__cell nowrap">Post level</div>
+            <div class="vacanciesTable__cell nowrap">Apply by</div>
+            <div class="vacanciesTable__cell nowrap">Agency</div>
+            <div class="vacanciesTable__cell nowrap">Location{{home.vacancyHeaders.location}}</div>
           </div>
           {{#each this.vacancies}}
           <a href="post.html" class="vacanciesTableLink vacanciesTable__row">
@@ -54,9 +45,9 @@
                   {{{this.label}}}
                 </div>
                 {{#if this.value}}
-                {{{this.value}}}
+                <span>{{{this.value}}}</span>
                 {{else}}
-                {{{this}}}
+                <span>{{{this}}}</span>
                 {{/if}}
               </div>
             {{/each}}
