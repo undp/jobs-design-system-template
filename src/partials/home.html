@@ -53,7 +53,11 @@
                 <div class="vacanciesTable__cell__label">
                   {{{this.label}}}
                 </div>
+                {{#if this.value}}
                 {{{this.value}}}
+                {{else}}
+                {{{this}}}
+                {{/if}}
               </div>
             {{/each}}
           </a>
