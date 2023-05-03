@@ -50,7 +50,10 @@
           <a href="post.html" class="vacanciesTableLink vacanciesTable__row">
             {{#each this}}
               <div class="vacanciesTable__cell">
-                <span>{{{this}}}</span>
+                <div class="vacanciesTable__cell__label">
+                  {{{this.label}}}
+                </div>
+                {{{this.value}}}
               </div>
             {{/each}}
           </a>

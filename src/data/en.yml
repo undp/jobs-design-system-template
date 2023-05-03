@@ -24,7 +24,7 @@ home:
     text: >
       <p>Take this <a href="https://www.cubiksonline.com/CubiksOnline/Standalone/PLanding.aspx?key=8e331395-680d-4642-b5e0-f630af7afb2b&hash=E7101B1C96E19267A7AC86AB6AAC3B38A37F14DA&skin=21746+148">voluntary self-assessment</a> to get valuable insight about your work expectations and whether it is a good match to some aspects of the work environment at UNDP! The input will be used for statistical purposes only; it will not be taken into consideration by UNDP in any job application process. This information is purely for your benefit. Access this brief <a href="https://www.undp.org/sites/g/files/zskgke326/files/2023-02/How_to_use_the_self_assessment_tool.mp4">video tutorial on how to use the self-assessment tool</a>.</p>  
   vacancyHeaders:
-    jobTite: Job title
+    jobTitle: Job title
     category: Category
     postLevel: Post level
     applyBy: Apply by
@@ -36,106 +36,205 @@ home:
       description: UNDP ensures inclusive and effective democratic governance by advocating, advising, fostering impartial spaces for dialogue, achieving consensus and building institutions.
       vacancies:
         vacancy1:
-          jobTite: Job Title
-          category: External
-          postLevel: NPSA-9
-          applyBy: >
-            <span style="white-space:nowrap">Mar-15-23</span>
-          agency: UNDP
-          location: New York, United States
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
         vacancy2:
-          jobTite: Job Title
-          category: External
-          postLevel: NPSA-9
-          applyBy: Mar-15-23
-          agency: UNDP
-          location: New York, United States
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
         vacancy3:
-          jobTite: Job Title
-          category: External
-          postLevel: NPSA-9
-          applyBy: Mar-15-23
-          agency: UNDP
-          location: New York, United States
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
         vacancy4:
-          jobTite: Job Title
-          category: External
-          postLevel: NPSA-9
-          applyBy: Mar-15-23
-          agency: UNDP
-          location: New York, United States
+          jobTitle: 
+            label: Job Title
+            value: Job Title Here
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: NPSA-9
+          applyBy: 
+            label: Apply by
+            value: >
+              <span style="white-space:nowrap">Mar-15-23</span>
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: New York, United States
         vacancy5:
-          jobTite: 2596 International Project Evaluation Expert
-          category: External
-          postLevel: International Consultant
-          applyBy: May-2-23
-          agency: UNDP
-          location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
+          jobTitle: 
+            label: Job title
+            value: 2596 International Project Evaluation Expert
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: International Consultant
+          applyBy: 
+            label: Apply by
+            value: May-2-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
         vacancy6:
-          jobTite: >
-            * Team Leader Governance Research and Innovation
-          category: External
-          postLevel: P5
-          applyBy: May-1-23
-          agency: UNDP
-          location: Oslo, Norway
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Governance Research and Innovation
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency:
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
         vacancy7:
-          jobTite: >
-            * Governance Data Specialist
-          category: External
-          postLevel: P3
-          applyBy: May-1-23
-          agency: UNDP
-          location: Oslo, Norway
+          jobTitle: 
+            label: Job title
+            value: >
+              * Governance Data Specialist
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P3
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Oslo, Norway
         vacancy8:
-          jobTite: >
-            * Team Leader Strategic Communications and Knowledge Management
-          category: External
-          postLevel: P5
-          applyBy: May-1-23
-          agency: UNDP
-          location: Bogota, Colombia
+          jobTitle: 
+            label: Job title
+            value: >
+              * Team Leader Strategic Communications and Knowledge Management
+          category: 
+            label: Category
+            value: External
+          postLevel: 
+            label: Post level
+            value: P5
+          applyBy: 
+            label: Apply by
+            value: May-1-23
+          agency: 
+            label: Agency
+            value: UNDP
+          location: 
+            label: Location
+            value: Bogota, Colombia
     area2:
       name: Sustainable Development and Poverty Reduction
       description: UNDP helps countries to simultaneously reduce poverty and achieve sustainable development that leads to transformational change, bringing about real improvements in people’s lives.
       vacancies:
         vacancy1:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy2:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy3:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy4:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy5:
-          jobTite: 2596 International Project Evaluation Expert
+          jobTitle: 2596 International Project Evaluation Expert
           category: External
           postLevel: International Consultant
           applyBy: May-2-23
           agency: UNDP
           location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
         vacancy6:
-          jobTite: >
+          jobTitle: >
             * Team Leader Governance Research and Innovation
           category: External
           postLevel: P5
@@ -143,7 +242,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy7:
-          jobTite: >
+          jobTitle: >
             * Governance Data Specialist
           category: External
           postLevel: P3
@@ -151,7 +250,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy8:
-          jobTite: >
+          jobTitle: >
             * Team Leader Strategic Communications and Knowledge Management
           category: External
           postLevel: P5
@@ -163,42 +262,42 @@ home:
       description: UNDP works to integrate issues of climate, disaster risk and energy at the country level, and focuses on building resilience and ensuring that development remains risk-informed and sustainable.
       vacancies:
         vacancy1:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy2:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy3:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy4:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy5:
-          jobTite: 2596 International Project Evaluation Expert
+          jobTitle: 2596 International Project Evaluation Expert
           category: External
           postLevel: International Consultant
           applyBy: May-2-23
           agency: UNDP
           location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
         vacancy6:
-          jobTite: >
+          jobTitle: >
             * Team Leader Governance Research and Innovation
           category: External
           postLevel: P5
@@ -206,7 +305,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy7:
-          jobTite: >
+          jobTitle: >
             * Governance Data Specialist
           category: External
           postLevel: P3
@@ -214,7 +313,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy8:
-          jobTite: >
+          jobTitle: >
             * Team Leader Strategic Communications and Knowledge Management
           category: External
           postLevel: P5
@@ -226,42 +325,42 @@ home:
       description: To help communities reduce and manage risks, humanitarian and development actors need to incorporate resilience-building and recovery into crisis response. UNDP makes a critical contribution to these efforts, by being present on the ground immediately after the onset of a crisis and linking humanitarian response to long term recovery.
       vacancies:
         vacancy1:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy2:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy3:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy4:
-          jobTite: Job Title
+          jobTitle: Job Title
           category: External
           postLevel: NPSA-9
           applyBy: Mar-15-23
           agency: UNDP
           location: New York, United States
         vacancy5:
-          jobTite: 2596 International Project Evaluation Expert
+          jobTitle: 2596 International Project Evaluation Expert
           category: External
           postLevel: International Consultant
           applyBy: May-2-23
           agency: UNDP
           location: Homebased with travel missions to Belgrade, Skopje, Sarajevo and Podgorica, SERBIA
         vacancy6:
-          jobTite: >
+          jobTitle: >
             * Team Leader Governance Research and Innovation
           category: External
           postLevel: P5
@@ -269,7 +368,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy7:
-          jobTite: >
+          jobTitle: >
             * Governance Data Specialist
           category: External
           postLevel: P3
@@ -277,7 +376,7 @@ home:
           agency: UNDP
           location: Oslo, Norway
         vacancy8:
-          jobTite: >
+          jobTitle: >
             * Team Leader Strategic Communications and Knowledge Management
           category: External
           postLevel: P5
@@ -332,21 +431,23 @@ post:
     <p>UNDP is the knowledge frontier organization for sustainable development in the UN Development System and serves as the integrator for collective action to realize the Sustainable Development Goals (SDGs). UNDP&rsquo;s policy work is carried out at HQ, Regional and Country Office levels, and forms a contiguous spectrum of deep local knowledge to cutting-edge global perspectives and advocacy. In this context, UNDP invests in the Global Policy Network (GPN), a network of field-based and global technical expertise across a wide range of knowledge domains. Governance and Peacebuilding (GP) Team in the Bangkok Regional Hub (BRH) working in the Asia Pacific Region is one of them.</p>
     <p>GP Team in BRH closely work with the UNDP&rsquo;s Crisis Bureau&rsquo;s relevant teams in the HQ as well as in other offices, and in collaboration with other specialists in Regional Hubs, HQ, Country Offices and the Oslo Governance Global Policy Center. The CP team in BRH is responsible for contributing substantive policy and programme advisory services to multiple Asia-Pacific Country Offices and applying products and tools relevant to the thematic area. Working to ensure quality and coherent policy and programme advisory services, it advances the credibility and recognition of the organization&rsquo;s programmes in this thematic area.</p>
     <p>In this context, the team seeks the services of a Knowledge Management Intern to take stock of the peacebuilding and conflict prevention work in the region and support drafting a knowledge product to better document and share knowledge in the region. Key areas of focus in this area include sustaining peace, peacebuilding, working in situations of protracted conflict, dealing with the past and promoting social cohesion, conflict and gender-sensitivity, and preventing violent extremism.</p>
+    <p>&nbsp;</p>
     <h2>Duties and Responsibilities</h2>
     <h4>Duties and responsibilities % of time</h4>
     <p>Under the supervision of the Regional Conflict Prevention and Peace Specialist, UNDP, the Intern will be responsible for producing the knowledge product for the CP Team of Bangkok Regional Hub.</p>
+    <p>&nbsp;</p>
     <table>
     <tbody>
     <tr>
-    <td>
-    <p>&nbsp; No</p>
-    </td>
-    <td>
-    <p>&nbsp; &nbsp;Duties and responsibilities</p>
-    </td>
-    <td>
-    <p>% of time</p>
-    </td>
+    <th>
+    <p>No</p>
+    </th>
+    <th>
+    <p>Duties and responsibilities</p>
+    </th>
+    <th>
+    <p style="white-space:nowrap">% of time</p>
+    </th>
     </tr>
     <tr>
     <td colspan="3">
@@ -355,42 +456,43 @@ post:
     </tr>
     <tr>
     <td>
-    <p>&nbsp; &nbsp;1</p>
+    <p>1</p>
     </td>
     <td>
     <p>Document and map UNDP&rsquo;s conflict prevention and peacebuilding work in the region and support elevating UNDP&rsquo;s peace work in Asia-Pacific context. UNDP has documented and published its conflict prevention and peacebuilding work in 2016 and 2018. The Intern will update this and help produce a latest one which will also include some of the lessons learnt and the evolution of peacebuilding programming over time for UNDP.</p>
     <p>&nbsp;</p>
     </td>
     <td>
-    <p>&nbsp; &nbsp; &nbsp;50%</p>
+    <p>50%</p>
     </td>
     </tr>
     <tr>
     <td>
-    <p>&nbsp; &nbsp;2</p>
+    <p>2</p>
     </td>
     <td>
     <p>Administer forward-looking survey and the consultations with the country teams and desk review of the earlier recorded consultations and webinars. This will take into consideration the needs and demands of the country offices (COs) based on the consultation/survey done with COs as well as the information and data from the global and regional crisis risk dashboards of UNDP.</p>
     <p>&nbsp;</p>
     </td>
     <td>
-    <p>&nbsp; &nbsp; &nbsp;20 %</p>
+    <p>20%</p>
     </td>
     </tr>
     <tr>
     <td>
-    <p>&nbsp; &nbsp;3</p>
+    <p>3</p>
     </td>
     <td>
     <p>Support other activities in support of the regional conflict prevention and peacebuilding team including in the organization of regional events and community of practice and development of knowledge products as needed.</p>
     <p>&nbsp;</p>
     </td>
     <td>
-    <p>&nbsp; &nbsp; &nbsp;30%</p>
+    <p>30%</p>
     </td>
     </tr>
     </tbody>
     </table>
+    <p>&nbsp;</p>
     <p>Note: Draft knowledge product mapping and documenting UNDP&rsquo;s work in conflict prevention and peacebuilding in AP region. This will also include three to four analytical chapters/sections that highlight UNDP&rsquo;s peace work along broad themes, drawing examples from its work in the country offices such as:</p>
     <ul>
     <li>Peace infrastructures (Philippines, PNG)</li>
@@ -400,6 +502,7 @@ post:
     <li>HDP nexus and evolution of &lsquo;community first&rsquo;/ &lsquo;community resilience&rsquo; approach (Myanmar, Afghanistan, Philippines)</li>
     <li>Business and Peace (drawing and building on the regional work of Business and Human Rights)Preventing Violent Extremism (Thailand, Philippines, Indonesia, Malaysia, Maldives, Sri Lanka, Bangladesh)<br />Insider Mediation (Philippines, Nepal, Thailand, Cambodia)</li>
     </ul>
+    <p>&nbsp;</p>
     <h2>Competencies and Attitude</h2>
     <h4>Expectation Conditions</h4>
     <ul>
@@ -423,6 +526,7 @@ post:
     <li>Interns are expected to work full time but flexibility is allowed for education programmes;</li>
     <li>Interns need to obtain financing for subsistence and make own arrangements for internship, travel, VISA, accommodation, etc.</li>
     </ul>
+    <p>&nbsp;</p>
     <h2>Qualifications</h2>
     <h4>Education</h4>
     <p>Candidates must meet one of the following educational requirements:</p>
