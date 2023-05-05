@@ -20,6 +20,7 @@
     background-position: 100% 100%, -30px 100%;
     background-size: 100% 2px, 0 2px;
   }
+
   to {
     background-position: calc(100% + 30px) 100%, 0 100%;
     background-size: 0 2px, 100% 2px;
@@ -39,6 +40,7 @@ img {
 .homepage-hero-full {
   margin-bottom: variables.$spacing-07;
   padding-bottom: variables.$spacing-12;
+
   @include devicebreak(medium) {
     margin-bottom: variables.$spacing-10;
   }
@@ -56,7 +58,8 @@ img {
 
 .vacanciesTable {
   margin: variables.$spacing-08 0 $spacing-10;
-  border-collapse: collapse; 
+  border-collapse: collapse;
+
   @include devicebreak(medium) {
     display: table;
   }
@@ -64,6 +67,7 @@ img {
 
 .vacanciesTable__header {
   display: none;
+
   @include devicebreak(medium) {
     display: table-header-group;
     font-weight: 700;
@@ -75,13 +79,16 @@ img {
 
 .vacanciesTable__cell {
   padding: variables.$spacing-03;
+
   @include devicebreak(medium) {
     padding: variables.$spacing-05 variables.$spacing-03;
     display: table-cell;
   }
+
   &:first-child {
     grid-column: span 2;
   }
+
   &:last-child {
     grid-column: span 2;
   }
@@ -92,6 +99,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 0 variables.$spacing-04;
   padding: variables.$spacing-04 0;
+
   @include devicebreak(medium) {
     padding: 0;
     display: table-row;
@@ -106,9 +114,11 @@ img {
 .vacanciesTableLink {
   background: transparent;
   transition: .1s all ease;
+
   &:hover,
   &:focus {
     background: variables.$color-gray-200;
+
     &>.vacanciesTable__cell:first-child span {
       @extend %animate-link !optional;
       @include animation(lineLoop-animation 2s linear infinite);
@@ -123,6 +133,7 @@ img {
   line-height: 1.09%;
   text-transform: uppercase;
   margin-bottom: variables.$spacing-03;
+
   @include devicebreak(medium) {
     display: none;
   }
@@ -143,14 +154,17 @@ img {
 
 .postMetadata {
   border-bottom: 1px solid variables.$color-gray-400;
+
   @include devicebreak(medium) {
     margin-top: variables.$spacing-10;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   h6 {
     margin-bottom: variables.$spacing-02;
   }
+
   p {
     color: variables.$color-gray-700;
   }
@@ -162,6 +176,7 @@ img {
 
 .postContent {
   margin-bottom: variables.$spacing-09;
+
   @include devicebreak(medium) {
     margin-bottom: variables.$spacing-13;
   }
@@ -172,20 +187,20 @@ img {
   flex-direction: column;
   gap: variables.$spacing-05;
   margin: variables.$spacing-07 0;
+
   @include devicebreak(medium) {
     flex-direction: row;
   }
 }
 
-.application {
-  
-}
+.application {}
 
 .application__grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: variables.$spacing-06;
-  > div {
+
+  >div {
     margin-bottom: variables.$spacing-05;
     grid-column: span 2;
   }
@@ -206,24 +221,31 @@ fieldset {
   &-03 {
     margin-bottom: variables.$spacing-03;
   }
+
   &-04 {
     margin-bottom: variables.$spacing-04;
   }
+
   &-05 {
     margin-bottom: variables.$spacing-05;
   }
+
   &-06 {
     margin-bottom: variables.$spacing-06;
   }
+
   &-07 {
     margin-bottom: variables.$spacing-07;
   }
+
   &-08 {
     margin-bottom: variables.$spacing-08;
   }
+
   &-09 {
     margin-bottom: variables.$spacing-09;
   }
+
   &-10 {
     margin-bottom: variables.$spacing-10;
   }
@@ -232,6 +254,29 @@ fieldset {
 .nowrap {
   white-space: nowrap;
 }
+
+.application {
+
+  // fixes misalignment issue
+  label+.select-box {
+    margin-top: variables.$spacing-03;
+    max-width: none;
+    height: 46px;
+    button {
+      padding: calc(0.625rem + 2px);
+    }
+    ul {
+      top: 44px;
+    }
+  }
+
+  .select-box button {
+    font-weight: 500;
+    text-transform: none;
+  }
+}
+
+
 
 // .multi-select {
 //   max-width: none;
