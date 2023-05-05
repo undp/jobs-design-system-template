@@ -86,18 +86,131 @@
         </div>
         <div class="grid-x">
           <div class="cell large-9 medium-offset-1 medium-10">
-            <p>Candidates are encouraged to submit the application electronically along with an uploaded resume</p> <ol> <li>Enter your information here.</li> <li>Items with a * are required before continuing.</li> <li>After you submit this form, in the next page you will be able to upload your resume and any other document indicated in the vacancy. Please note that you can only upload one attachment, therefore, prior to uploading you will need to merge or scan all required documents into one file smaller than 10mb (preferably .pdf).</li> <li>You will receive a confirmation email from the UNDP Office of Human Resources.</li> <li>If you experience any technical difficulties with this application, please contact the eRecruit Helpdesk.Please note that as UNDP´s recruitment processes are decentralized, job specific queries may be presented to the hiring unit once they’ve expressed interest in your application.</li> </ol>
+            <p>Candidates are encouraged to submit the application electronically along with an uploaded resume</p> <ol> <li>Enter your information here.</li> <li>Items with a * are required before continuing.</li> <li>After you submit this form, in the next page you will be able to upload your resume and any other document indicated in the vacancy. Please note that you can only upload one attachment, therefore, prior to uploading you will need to merge or scan all required documents into one file smaller than 10mb (preferably .pdf).</li> <li>You will receive a confirmation email from the UNDP Office of Human Resources.</li> <li>If you experience any technical difficulties with this application, please contact the eRecruit Helpdesk.Please note that as UNDP´s recruitment processes are decentralized, job specific queries may be presented to the hiring unit once they’ve expressed interest in your application.</li> </ol> <p>&nbsp;</p>
     
           </div>
         </div>
         <div class="grid-x grid-margin-x">
-          <div class="cell large-9 medium-offset-1 medium-10">
-            <h2>Personal information</h2>
-            <div class="application">
-              <div class="application__grid">
+          <div class="cell large-9 medium-offset-1 medium-10 margin-bottom-10">
+            <form action="">
+              <h2>Personal information</h2>
+              <div class="application">
+                <div class="application__grid">
+                  <div>
+                    <label for="">Prefix: <span
+                        aria-label="required">*</span></label>
+                    <div class="select-box select-box--fill" data-select="">
+                      <button type="button" aria-haspopup="listbox"
+                        aria-label="Select" data-select-open="">
+                        --
+                      </button>
+                      <ul role="listbox" data-select-options="" autocomplete="honorific-prefix">
+                        <li role="option" tabindex="0" data-value="mr">
+                          <span>Mr.</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="mrs">
+                          <span>Mrs.</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="ms">
+                          <span>Ms.</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="mx">
+                          <span>Mx.</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="firstName">First name: <span
+                        aria-label="required">*</span></label>
+                    <input type="text" placeholder="" name="firstName"
+                      id="firstName" autocomplete="given-name" required />
+                  </div>
+                  <div>
+                    <label for="lastName">Last name: <span
+                        aria-label="required">*</span></label>
+                    <input type="text" placeholder="" name="lastName" id="lastName"
+                      autocomplete="family-name" required />
+                  </div>
+                  <div>
+                    <label for="email">Email: <span
+                        aria-label="required">*</span></label>
+                    <input type="email" placeholder="" name="email" id="email"
+                      autocomplete="email" required />
+                  </div>
+                  <div>
+                    <label for="phone">Phone: <span
+                        aria-label="required">*</span></label>
+                    <input type="tel" placeholder="" name="phone" id="phone" autocomplete="tel"
+                      required />
+                  </div>
+                  <div>
+                    <label for="">Gender:</label>
+                    <div class="select-box select-box--fill" data-select="">
+                      <button type="button" aria-haspopup="listbox"
+                        aria-label="Select" data-select-open="">
+                        --
+                      </button>
+                      <ul role="listbox" data-select-options="">
+                        <li role="option" tabindex="0" data-value="female">
+                          <span>Female</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="male">
+                          <span>Male</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="other">
+                          <span>Other</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="dob">Date of birth: <span
+                        aria-label="required">*</span></label>
+                    <input type="date" placeholder="dd/mm/yyyy" name="dob" id="dob" autocomplete="bday"
+                      required />
+                  </div>
+                  <div>
+                    <label for="">Nationality at birth: <span
+                        aria-label="required">*</span></label>
+                    <div class="select-box select-box--fill" data-select="">
+                      <button type="button" aria-haspopup="listbox"
+                        aria-label="Select" data-select-open="">
+                        --
+                      </button>
+                      <ul role="listbox" data-select-options="">
+                        <li role="option" tabindex="0" data-value="nat1">
+                          <span>Nationality 1</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="nat2">
+                          <span>Nationality 2</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">Current nationality: <span
+                        aria-label="required">*</span></label>
+                    <div class="select-box select-box--fill" data-select="">
+                      <button type="button" aria-haspopup="listbox"
+                        aria-label="Select" data-select-open="">
+                        --
+                      </button>
+                      <ul role="listbox" data-select-options="">
+                        <li role="option" tabindex="0" data-value="nat1">
+                          <span>Nationality 1</span>
+                        </li>
+                        <li role="option" tabindex="0" data-value="nat2">
+                          <span>Nationality 2</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="application__noGrid">
                 <div>
                   <label for="">Prefix: <span aria-label="required">*</span></label>
-                  <div class="select-box" data-select="">
+                  <div class="select-box select-box--fill" data-select="">
                     <button type="button" aria-haspopup="listbox"
                       aria-label="Select" data-select-open="">
                       --
@@ -144,7 +257,7 @@
                 </div>
                 <div>
                   <label for="">Gender:</label>
-                  <div class="select-box" data-select="">
+                  <div class="select-box select-box--fill" data-select="">
                     <button type="button" aria-haspopup="listbox"
                       aria-label="Select" data-select-open="">
                       --
@@ -171,7 +284,7 @@
                 <div>
                   <label for="">Nationality at birth: <span
                       aria-label="required">*</span></label>
-                  <div class="select-box" data-select="">
+                  <div class="select-box select-box--fill" data-select="">
                     <button type="button" aria-haspopup="listbox"
                       aria-label="Select" data-select-open="">
                       --
@@ -189,7 +302,7 @@
                 <div>
                   <label for="">Current nationality: <span
                       aria-label="required">*</span></label>
-                  <div class="select-box" data-select="">
+                  <div class="select-box select-box--fill" data-select="">
                     <button type="button" aria-haspopup="listbox"
                       aria-label="Select" data-select-open="">
                       --
@@ -204,42 +317,174 @@
                     </ul>
                   </div>
                 </div>
+              </div> -->
+                <div>
+                  <fieldset>
+                    <label for="unMember">Are you current or former
+                      <strong>UN</strong> Staff
+                      Member?<span aria-label="required">*</span> <small> (NB: SSA
+                        contract holders are considered Vendors not
+                        Staff)</small></label>
+                    <div class="radioWrap">
+                      <div class="form-check">
+                        <input type="radio" name="unStaff" value="yes" />
+                        <label for="yes">Yes</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="radio" name="unStaff" value="no" />
+                        <label for="no">No</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div>
+                  <fieldset>
+                    <label for="undpStaff">Are you current or former
+                      <strong>UNDP</strong> Staff
+                      Member?<span aria-label="required">*</span> <small>(UNDP
+                        staff,
+                        please
+                        select "yes" as UN Staff above)</small></label>
+                    <div class="radioWrap">
+                      <div class="form-check">
+                        <input type="radio" name="undpStaff" value="yes" />
+                        <label for="yes">Yes</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="radio" name="undpStaff" value="no" />
+                        <label for="no">No</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="is-style-explanation">
+                  <p>UN Staff Rule on Family Relationships imposes restrictions on
+                    relatives being employed as staff or non staff. Applicants are
+                    required to disclose any family relation employed with any UN
+                    organization worldwide at the time of their application.</p>
+                </div>
+                <div>
+                  <fieldset>
+                    <label for="undpStaff">Do you have any close relatives who are
+                      employed by the United Nations<span
+                        aria-label="required">*</span></label>
+                    <div class="radioWrap">
+                      <div class="form-check">
+                        <input type="radio" name="undpStaff" value="yes" />
+                        <label for="yes">Yes</label>
+                      </div>
+                      <div class="form-check">
+                        <input type="radio" name="undpStaff" value="no" />
+                        <label for="no">No</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div>
+                  <label for="">If yes, who?</label>
+                  <div class="select-box" data-select="">
+                    <button type="button" aria-haspopup="listbox"
+                      aria-label="Select" data-select-open="">
+                      --
+                    </button>
+                    <ul role="listbox" data-select-options="">
+                      <li role="option" tabindex="0" data-value="nat1">
+                        <span>Mother</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Father</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Sibling</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Child</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Other (please specify)</span>
+                      </li>
+                    </ul>
+                  </div>
+    
+                </div>
+                <div>
+                  <label for="howHear">How did you hear about us?</label>
+                  <textarea name="howHear" id="" cols="30" rows="10"></textarea>
+                </div>
               </div>
-              <div>
-                <fieldset>
-                  <label for="unMember">Are you current or former UN Staff Member?<span aria-label="required">*</span> <small> (NB: SSA contract holders are considered Vendors not Staff)</small></label>
-                  <div class="form-check">
-                    <input type="radio" name="unStaff" value="yes" />
-                    <label for="yes">Yes</label>
-                  </div>
-                  <div class="form-check">
-                    <input type="radio" name="unStaff" value="no" />
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
+              <h3>Language proficiency</h3>
+              <p>Please indicate your reading, writing and speaking proficiency in
+                the
+                UNDP languages listed below. Non UNDP languages can be listed in the
+                space provided:</p>
+              <div class="application">
+    
               </div>
-              <div>
-                <fieldset>
-                  <label for="undpStaff">*Are you current or former UNDP Staff Member?<span
-                      aria-label="required">*</span> <small>(UNDP staff, please
-                      select "yes" as UN Staff above)</small></label>
-                  <div class="form-check">
-                    <input type="radio" name="undpStaff" value="yes" />
-                    <label for="yes">Yes</label>
+              <h3>Education</h3>
+              <div class="application">
+                <div>
+                  <label for="">Highest Degree Received: <span
+                      aria-label="required">*</span></label>
+                  <div class="select-box" data-select="">
+                    <button type="button" aria-haspopup="listbox"
+                      aria-label="Select" data-select-open="">
+                      --
+                    </button>
+                    <ul role="listbox" data-select-options="">
+                      <li role="option" tabindex="0" data-value="nat1">
+                        <span>High School</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Technical/Trade School</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Bachelors or equivalent</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>Masters or equivalent</span>
+                      </li>
+                      <li role="option" tabindex="0" data-value="nat2">
+                        <span>PhD or equivalent</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="form-check">
-                    <input type="radio" name="undpStaff" value="no" />
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
+                </div>
+                <div>
+                  <label for="degreeName">Name of degree: <span
+                      aria-label="required">*</span></label>
+                  <input type="text" placeholder="" name="degreeName"
+                    id="degreeName" required />
+                </div>
+    
               </div>
-            </div>
-            <div class="buttonsWrap">
-              <a class="button button-primary button-arrow" role="button"
-                href="apply.html">
-                Apply now
-              </a>
-            </div>
+              <h3>Resume and motivation</h3>
+              <div class="application">
+                <div>
+                  <label for="motivation">Please state briefly the reasons why you
+                    think you are outstanding candidate for this job <span
+                      aria-label="required">*</span> <br><small>(Max 1000
+                      Characters)</small></label>
+                  <textarea name="motivation" id="motivation" cols="30"
+                    rows="10"></textarea>
+                </div>
+                <!-- <div>
+                <label for="resume">Please type in or paste your resume into the following box You will have the opportunity to upload your resume on the next page</label>
+                <textarea name="resume" id="resume" cols="30" rows="10"></textarea>
+              </div> -->
+                <div>
+                  <label for="avatar">Attach your résumé: <span
+                      aria-label="required">*</span></label>
+                  <input type="file" id="avatar" name="avatar"
+                    accept="image/png, image/jpeg">
+                </div>
+              </div>
+              <div class="buttonsWrap">
+                <a class="button button-primary button-arrow" role="button"
+                  href="apply.html">
+                  Apply now
+                </a>
+              </div>
+            </form>
           </div>
         </div>
       </div>

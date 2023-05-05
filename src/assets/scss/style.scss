@@ -193,13 +193,29 @@ img {
   }
 }
 
-.application {}
+.application {
+  margin-bottom: variables.$spacing-10;
+  >div {
+    margin: variables.$spacing-08 0 variables.$spacing-09;
+  }
+}
 
 .application__grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: variables.$spacing-06;
 
+  >div {
+    margin-bottom: variables.$spacing-05;
+    grid-column: span 2;
+  }
+}
+
+.application__noGrid {
+  display: flex;
+  flex-direction: column;
+  gap: variables.$spacing-06;
+  max-width: 500px;
   >div {
     margin-bottom: variables.$spacing-05;
     grid-column: span 2;
@@ -255,12 +271,15 @@ fieldset {
   white-space: nowrap;
 }
 
+.select-box--fill {
+  max-width: none;
+}
+
 .application {
 
   // fixes misalignment issue
   label+.select-box {
     margin-top: variables.$spacing-03;
-    max-width: none;
     height: 46px;
     button {
       padding: calc(0.625rem + 2px);
@@ -276,8 +295,20 @@ fieldset {
   }
 }
 
+.radioWrap {
+  display: flex;
+  margin-top: variables.$spacing-03;
+  flex-direction: column;
+  gap: variables.$spacing-05;
+  @include devicebreak(medium) {
+    flex-direction: row;
+  }
+}
 
-
-// .multi-select {
-//   max-width: none;
-// }
+.is-style-explanation {
+  background: variables.$color-gray-200;
+  padding: variables.$spacing-06;
+  p:last-of-type {
+    margin: 0;
+  }
+}
