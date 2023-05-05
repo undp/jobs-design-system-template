@@ -1,0 +1,63 @@
+<main>
+  <div class="grid-container fluid mt-h">
+    <div class="grid-x">
+      <div class="cell large-9 medium-offset-1 medium-10 margin-bottom-07">
+        <nav aria-label="breadcrumbs" data-viewport="true"
+          class="breadcrumb inviewport">
+          <ul>
+            <li><a href="{{root}}/index.html" aria-label="Home">Home</a></li>
+            <li><a href="post.html">{{post.title}}</a></li>
+            <li aria-current="Page title">{{refer.title}}</li>
+          </ul>
+        </nav>
+        <div class="post-wrapper" data-viewport="true">
+          <h4>{{refer.heading}}</h4>
+          <h2>{{post.title}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="cell large-9 medium-offset-1 medium-10 margin-bottom-04">
+        <p>{{refer.text}}</p>
+      </div>
+    </div>
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-9 medium-offset-1 medium-10 margin-bottom-10">
+        <form action="">
+          <!-- <h2>Enter information</h2> -->
+          <div class="application">
+            <div>
+              <label for="name">Your name: <span
+                  aria-label="required">*</span></label>
+              <input type="text" placeholder="" name="name" id="name"
+                autocomplete="name" required />
+            </div>
+            <div>
+              <label for="email">Your email address: <span
+                  aria-label="required"><span
+                    aria-label="required">*</span></label>
+              <input type="email" placeholder="" name="email" id="email"
+                autocomplete="email" required />
+            </div>
+            <div>
+              <label for="friendEmail">Your friend's email address: <span
+                  aria-label="required">*</span></label>
+              <input type="text" placeholder="" name="friendEmail"
+                id="friendEmail" autocomplete="off" required />
+            </div>
+            <div>
+              <label for="message">Should you desire to do so, you can write a message that will appear on the email</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="buttonsWrap">
+            <a class="button button-primary button-arrow" role="button"
+              href="apply.html">
+              Submit referral
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

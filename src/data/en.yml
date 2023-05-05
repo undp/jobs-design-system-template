@@ -1038,6 +1038,7 @@ home:
 
 post:
   title: Intern - Conflict Prevention and Peacebuilding Knowledge management
+  heading: Intern - Conflict Prevention and Peacebuilding Knowledge management
   metadata:
     location: 
       label: Location
@@ -1211,6 +1212,12 @@ apply:
     <li>If you experience any technical difficulties with this application, please contact the eRecruit Helpdesk.Please note that as UNDP's recruitment processes are decentralized, job specific queries may be presented to the hiring unit once they've expressed interest in your application.</li>
     </ol>
     <p>&nbsp;</p>
+
+refer:
+  title: Refer
+  heading: >
+    Refer a Friend or Colleague:
+  text: If you know of someone who might be an outstanding candidate for this job, you can use this form to let him or her know.Your friend or colleague will receive an e-mail that includes a link to this web site. Should you have privacy concerns, the only information required on this form is the e-mail address of your friend or colleague.
 
 footer:
   undp: United Nations <br />Development Programme
