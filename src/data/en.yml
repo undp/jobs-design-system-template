@@ -1219,6 +1219,11 @@ refer:
     Refer a Friend or Colleague:
   text: If you know of someone who might be an outstanding candidate for this job, you can use this form to let him or her know.Your friend or colleague will receive an e-mail that includes a link to this web site. Should you have privacy concerns, the only information required on this form is the e-mail address of your friend or colleague.
 
+success:
+  title: Success
+  heading: Your application has been submitted
+  text: You will receive an email confirming your submission. <a href="index.html">Return to the careers site</a>. 
+
 footer:
   undp: United Nations <br />Development Programme
   sm:

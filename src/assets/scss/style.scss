@@ -319,3 +319,7 @@ fieldset {
     margin: 0;
   }
 }
+
+input[type=file] {
+  margin-top: variables.$spacing-03;
+}
