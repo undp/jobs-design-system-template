@@ -1205,10 +1205,10 @@ apply:
     <p>Candidates are encouraged to submit the application electronically along with an uploaded resume</p>
     <ol>
     <li>Enter your information here.</li>
-    <li>Items with a * are required before continuing.</li>
+    <li>Items with a <span class="required">*</span> are required before continuing.</li>
     <li>After you submit this form, in the next page you will be able to upload your resume and any other document indicated in the vacancy. Please note that you can only upload one attachment, therefore, prior to uploading you will need to merge or scan all required documents into one file smaller than 10mb (preferably .pdf).</li>
     <li>You will receive a confirmation email from the UNDP Office of Human Resources.</li>
-    <li>If you experience any technical difficulties with this application, please contact the eRecruit Helpdesk.Please note that as UNDP´s recruitment processes are decentralized, job specific queries may be presented to the hiring unit once they’ve expressed interest in your application.</li>
+    <li>If you experience any technical difficulties with this application, please contact the eRecruit Helpdesk.Please note that as UNDP's recruitment processes are decentralized, job specific queries may be presented to the hiring unit once they've expressed interest in your application.</li>
     </ol>
     <p>&nbsp;</p>
 

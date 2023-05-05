@@ -211,18 +211,25 @@ img {
   }
 }
 
-.application__noGrid {
-  display: flex;
-  flex-direction: column;
+.application__languageRow {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   gap: variables.$spacing-06;
-  max-width: 500px;
-  >div {
-    margin-bottom: variables.$spacing-05;
-    grid-column: span 2;
+  @include devicebreak(medium) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  > div:first-of-type {
+    @include devicebreak(medium) {
+      padding-top: 42px;
+      p {
+        margin: 0;
+      }
+    }
   }
 }
 
-span[aria-label="required"] {
+span[aria-label="required"],
+span.required {
   color: variables.$color-red;
 }
 
