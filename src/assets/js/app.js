@@ -1,11 +1,11 @@
 import $ from 'jquery';
 
 // Load individual modules
-import { expandSearch } from '@undp/design-system/stories/assets/js/expand-search';
+// import { expandSearch } from '@undp/design-system/stories/assets/js/expand-search';
 import { multiSelect } from '@undp/design-system/stories/assets/js/multi-select';
 import { select } from '@undp/design-system/stories/assets/js/select';
 // import { sidebarNav, sidebarMenu } from '@undp/design-system/stories/assets/js/sidebar';
-import { navigationInitialize } from '@undp/design-system/stories/assets/js/navigation';
+// import { navigationInitialize } from '@undp/design-system/stories/assets/js/navigation';
 // import { accordion } from '@undp/design-system/stories/assets/js/accordion';
 // import { parallaxEffect } from '@undp/design-system/stories/assets/js/parallax';
 // import { swiper } from '@undp/design-system/stories/assets/js/swiper';
@@ -30,7 +30,7 @@ require('@undp/design-system/stories/assets/js/undp');
 // Initialize components
 
 // Enhanced form fields
-expandSearch();
+// expandSearch();
 multiSelect();
 toggleFilter();
 select();
@@ -89,3 +89,29 @@ langSwitch();
 //   }
 // }
 
+function filter() {
+
+
+
+  // $('[data-multi-select="area"] input[type="checkbox"]').each((ele, i) => {
+  //   let value = $(ele).val();
+  //   $(`[data-group="${value}"]`).toggle(this.checked);
+  // });
+
+  // $('[data-multi-select="region"] input[type="checkbox"]').each((ele, i) => {
+  //   let value = $(ele).val();
+  //   $(`[data-group="${value}"]`).toggle(this.checked);
+  // });
+
+}
+
+$('.expand-search input').on('keyup paste cut change', (e) => {
+  let $input = $(e.target);
+  let filter = $input.val().trim().toLowerCase();
+  if (filter != $input.data('filter')) {
+    $('[data-region]').each((i, ele) => {
+      $(ele).toggle($(ele).find('.vacanciesTable__cell span').text().toLowerCase().includes(filter));
+    });
+    $input.data('filter', filter);
+  }
+});

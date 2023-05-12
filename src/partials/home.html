@@ -26,6 +26,7 @@
       <div class="cell medium-auto">
         <h4 class="margin-bottom-09">All vacancies</h4>
         {{#each home.thematicAreas}}
+        <div data-group="{{@key}}">
         <h3>{{this.name}}</h3>
         <h5 class="thematicDescription">{{this.description}}</h5>
         <div class="vacanciesTable">
@@ -38,8 +39,9 @@
             <div class="vacanciesTable__cell nowrap">Location{{home.vacancyHeaders.location}}</div>
           </div>
           {{#each this.vacancies}}
-          <a href="post.html" class="vacanciesTableLink vacanciesTable__row">
+          <a href="post.html" class="vacanciesTableLink vacanciesTable__row" data-region="{{this.region}}">
             {{#each this}}
+            {{#ifequal @key "region" }}{{else}}
               <div class="vacanciesTable__cell">
                 <div class="vacanciesTable__cell__label">
                   {{{this.label}}}
@@ -50,9 +52,11 @@
                 <span>{{{this}}}</span>
                 {{/if}}
               </div>
+            {{/ifequal}}
             {{/each}}
           </a>
           {{/each}}
+          </div>
         </div> <!-- .vacanciesTable -->
         {{/each}}
       </div>
