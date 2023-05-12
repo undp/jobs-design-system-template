@@ -10,7 +10,7 @@
   "author": "Adam Parker <adam.parker@undp.org>",
   "license": "MIT",
   "dependencies": {
-    "@undp/design-system": "^1.0.10",
+    "@undp/design-system": "^1.1",
     "gsap": "^3.11.3",
     "jquery": "^3.6.1",
     "normalize.css": "^8.0.1"
@@ -59,6 +59,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "browserslist": [
-    "last 2 versions"
+    "defaults"
   ]
 }
