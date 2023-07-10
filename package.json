@@ -10,7 +10,7 @@
   "author": "Adam Parker <adam.parker@undp.org>",
   "license": "MIT",
   "dependencies": {
-    "@undp/design-system": "^1.1",
+    "@undp/design-system": "^1.2",
     "gsap": "^3.11.3",
     "jquery": "^3.6.1",
     "normalize.css": "^8.0.1"
@@ -34,6 +34,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser": "^2.1.0",
     "panini": "latest",
+    "patch-package": "^7.0.0",
     "postcss": "^8.4.18",
     "postcss-uncss": "^0.17.0",
     "postcss-url": "^10.1.3",

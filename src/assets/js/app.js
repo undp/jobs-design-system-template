@@ -5,7 +5,7 @@ import $ from 'jquery';
 import { multiSelect } from '@undp/design-system/stories/assets/js/multi-select';
 import { select } from '@undp/design-system/stories/assets/js/select';
 // import { sidebarNav, sidebarMenu } from '@undp/design-system/stories/assets/js/sidebar';
-// import { navigationInitialize } from '@undp/design-system/stories/assets/js/navigation';
+import { navigationInitialize } from '@undp/design-system/stories/assets/js/navigation';
 // import { accordion } from '@undp/design-system/stories/assets/js/accordion';
 // import { parallaxEffect } from '@undp/design-system/stories/assets/js/parallax';
 // import { swiper } from '@undp/design-system/stories/assets/js/swiper';
@@ -40,7 +40,7 @@ select();
 // sidebarMenu();
 
 // Mega menu
-// navigationInitialize();
+navigationInitialize();
 
 // Accordion
 // accordion();
@@ -89,21 +89,21 @@ langSwitch();
 //   }
 // }
 
-function filter() {
+// function filter() {
 
 
 
-  // $('[data-multi-select="area"] input[type="checkbox"]').each((ele, i) => {
-  //   let value = $(ele).val();
-  //   $(`[data-group="${value}"]`).toggle(this.checked);
-  // });
+//   $('[data-multi-select="area"] input[type="checkbox"]').each((ele, i) => {
+//     let value = $(ele).val();
+//     $(`[data-group="${value}"]`).toggle(this.checked);
+//   });
 
-  // $('[data-multi-select="region"] input[type="checkbox"]').each((ele, i) => {
-  //   let value = $(ele).val();
-  //   $(`[data-group="${value}"]`).toggle(this.checked);
-  // });
+//   $('[data-multi-select="region"] input[type="checkbox"]').each((ele, i) => {
+//     let value = $(ele).val();
+//     $(`[data-group="${value}"]`).toggle(this.checked);
+//   });
 
-}
+// }
 
 $('.expand-search input').on('keyup paste cut change', (e) => {
   let $input = $(e.target);
