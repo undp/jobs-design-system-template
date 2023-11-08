@@ -146,14 +146,10 @@ img {
 
 // copied from stories/Templates/ArticlePage/article-page.scss
 .mt-h {
-  margin-top: 5.25rem;
+  margin-top: 0.5rem;
 
-  @include mixins.devicebreak(medium) {
-    margin-top: 8.75rem;
-  }
-
-  @include mixins.devicebreak(xlarge) {
-    margin-top: 11.875rem;
+  @include mixins.devicebreak(large) {
+    margin-top: 4rem;
   }
 }
 
@@ -327,4 +323,7 @@ fieldset {
 
 input[type=file] {
   margin-top: variables.$spacing-03;
+}
+.country-header .header .dropdown-language {
+  display: flex!important;
 }
